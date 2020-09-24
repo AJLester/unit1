@@ -2,16 +2,27 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("central inntalagence");
-        System.out.println("Fast and ferious");
-        System.out.println("merical");
-        System.out.println("the blindside");
-        System.out.println("6 underground");
-        System.out.println("avengers");
-        System.out.println("The other guys");
-        System.out.println("spencer");
-        System.out.println("harry potter");
-        System.out.println("daddys home 2");
+        String firstName = "AJ";
+        String lastName = "Lester";
+
+System.out.println(firstName + " " + lastName);
+String person1 = "Bobby";
+  String person2 = "John";
+  String verb1 = "Run";
+  String verb2 = "Eat";
+  String verb3 = "Run";
+  String food = "Pizza";
+  String dayOfWeek = "Monday";
+  String place1 = "Park";
+  String place2 = "Track";
+  String adjective1 = "Delicious";
+  String adjective2 = "Older";
+  System.out.println(person1 + "is a programmer who likes to" + verb1);
+System.out.println("Every");
+
+
+
+
 
     }
 }
