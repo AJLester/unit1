@@ -14,19 +14,14 @@ System.out.println("Please enter a larger number");
 int num2 = input.nextInt();
 input.nextLine();
 
-num1++;
-
-while (num1 < num2){
-
-if (num1 % 2 == 0){
-    System.out.println(num1);
-
-    System.out.println(num1);
-}
-    num1++;
-
-}
+for (int i = num1; i <= num2; i = i +1){
+    if (i % 2 == 0) {
+System.out.println(i);
+    }
+    
+    
+    
 
     }
 }
-
+}
