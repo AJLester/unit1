@@ -1,27 +1,41 @@
 package app;
 
-import java.util.Scanner;
-
 public class App {
     public static void main(String[] args) throws Exception {
-Scanner input = new Scanner(System.in);
-
-System.out.println("Please enter a number");
-int num1 =input.nextInt();
-input.nextLine();
-
-System.out.println("Please enter a larger number");
-int num2 = input.nextInt();
-input.nextLine();
-
-for (int i = num1; i <= num2; i = i +1){
-    if (i % 2 == 0) {
-System.out.println(i);
+       helloWorld();
+       isCool("AJ");
+       multiply(4, 5, 7, 8, 9);
     }
-    
-    
-    
-
+    public static void helloWorld(){
+        System.out.println("Hello world");
     }
+        public static void AJ(){
+            System.out.println("AJ");    
+  }
+public static void John(){
+    System.out.println("John");
 }
+public static void Lester(){
+    System.out.println("Lester");
 }
+
+public static void isCool(String name){
+    System.out.println(name + " is cool.");
+}
+    public static void greaterthan10(int number){
+        if (number>10){
+       System.out.println("Number is graeter than 10");
+        }
+       else {
+           System.out.println("number is not greater than 10");
+       }
+}
+public static void multiply(int num1, int num2, int num3, int num4, int num5){
+        System.out.println(num1 * num2 * num3 * num4 * num5);
+
+        }
+    } 
+     
+
+
+
